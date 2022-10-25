@@ -3,3 +3,9 @@ server:
     context-path: /services
   port: 9000
 
+spring:
+  data:
+    cassandra:
+      keyspace-name: test_keyspace
+      contact-points: localhost:9042
+      local-datacenter: datacenter1
